@@ -1,0 +1,13 @@
+{
+  "name": "dns-email-auth-checker",
+  "version": "1.0.0",
+  "description": "Zero-dependency CLI that checks a domain's SPF, DKIM and DMARC DNS records and reports exactly what's missing or misconfigured, with plain-English explanations.",
+  "main": "src/checker.js",
+  "bin": {
+    "dns-email-auth-checker": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
